@@ -46,7 +46,7 @@
 
 # V2 : Warning!
 
-![](assets/heavy_dev.png)
+![](heavy_dev.png)
 
 ## V2 is under Heavy Development!
 
@@ -56,7 +56,7 @@
 
 ## Libs at a glance
 
-![inline](assets/home.png)
+![inline](home.png)
 
 ---
 
@@ -64,7 +64,7 @@
 
 ## Overall User Progress
 
-![inline](assets/overall_progress.png)
+![inline](overall_progress.png)
 
 ---
 
@@ -72,7 +72,7 @@
 
 ## Library progress
 
-![right](assets/section_progress.png)
+![right](section_progress.png)
 
 ---
 
