@@ -4,22 +4,22 @@ build-lists: true
 
 ---
 
-# What is it?
+*What is it?*
 
-- An Open Source (ASL2) Browser based App conceived to help you learn an understand Scala based libraries and frameworks
+A browser tool to learn __Scala__ and its coolest __libs__
 
 ---
 
-# History & Motivation
+*A bit of History*
 
 - @rafaparadela JS POC for the @47deg labs
-- v1 Went Live on March 2nd, 2015
+- V1 Went Live on March 2nd, 2015
 - Focused on porting the Scala Koans koans to the web
 - Social component
 
 ---
 
-# V1 Limitations
+*V1 Limitations*
 
 - Serverless
 - Evaluation constrained to exact matches
@@ -28,131 +28,159 @@ build-lists: true
 
 ---
 
-# V1 Stats
+*V1 Stats*
 
-- 63K sessions
-- 40% Returning
-- 180 PRs
-- 50 Contributors
-- 1 section completed per visit
-
----
-
-# What's new?
+- *63K* sessions
+- *40%* Returning
+- *180* PRs
+- *50* Contributors
+- *1* section completed per visit
 
 ---
 
-# Libs at a glance
+# What's new in **V2**?
+
+---
+
+*Libs at a glance*
 
 ![inline](assets/home_blur.png)
 
 ---
 
-# Overall User Progress
+*Overall Progress*
 
 ![inline](assets/overall_progress.png)
 
 ---
 
-# Library progress
+*Lib Progress*
 
 ![inline](assets/section_progress.png)
 
 ---
 
-# Write Exercises Coding!
-
----
+Write Exercises *Coding!*
 
 ![inline](assets/section_convention_01.png)
 
 ---
 
+Write Exercises *Coding!*
+
 ![inline fit](assets/section_convention_02.png)
 
 ---
+
+Write Exercises *Coding!*
 
 ![inline fit](assets/section_convention_03.png)
 
 ---
 
+Write Exercises *Coding!*
+
 ![inline fit](assets/section_convention_04.png)
 
 ---
 
-# Exercises content are artifacts 
+Write Exercises *Coding!*
 
-[Image here]
-
----
-
-# Real evaluation of exercises
+*Real evaluation of exercises*
 
 ![inline](assets/cats.mov)
 
 ---
 
-# Contributors are properly credited
+*Contributors are properly credited*
 
 ![inline](assets/contributors.mov)
 
 ---
 
-Compiler / Evaluator / Architecture
+*We want you to become one of us!*
+
+![fit](assets/wewantyou.jpg)
 
 ---
 
-![center fit original](assets/graph_01.png)
+*Exercises Compiler Architecture*
+
+![inline](assets/graph_01.png)
 
 ---
 
-# Purely Functional Architecture
+*Technologies*
 
-[Image here]
+- **Client** [ScalaJS, Cats]
+- **Server** [Play, Cats, Doobie]
 
---- 
+---
 
-# Warning! V2 is under Heavy Development!
+*Client Architecture*
+
+![inline](assets/client.png)
+
+---
+
+*Backend Architecture*
+
+![inline](assets/coproduct01.png)
+
+---
+
+*Backend Architecture*
+
+![inline](assets/coproduct02.png)
+
+---
+
+*Backend Architecture*
+
+![inline](assets/coproduct03.png)
+
+---
+
+*Backend Architecture*
+
+![inline](assets/coproduct04.png)
+
+---
+
+*Backend Architecture*
+
+![inline](assets/coproduct05.png)
+
+---
+
+*Warning!* V2 is under Heavy Development!
 
 ![inline](assets/heavy_dev.png)
 
 ---
 
-# Actively working on...
+*Actively working on...*
 
-- Improved evaluation
+- Improved evaluation / Fork evaluation (Finch)
 - Support for block style exercises (Ex : Implement a type class)
 - Docs, contribution guide...
 - Splitting into multiple repositories
 
 --- 
 
-# What would be coming next?
+*What would be coming next?*
 
 - Allow Github organizations ?
 - Support other Exercises Format 
-- It really is entirely up to you!
-
----
-
-# What would be coming next?
-
 - Top level domain / org
-- Allow Github organizations ?
-- Support other Exercises Format 
 - It really is entirely up to you!
 
 ---
 
-![fit](assets/wewantyou.jpg)
-
----
-
-# Thanks!
+*Thanks!*
 
 @raulraja 
 @47deg
-Code : https://github.com/47deg/scala-exercises
-V1 : http://scala-exercises.47deg.com
 
----
+*Code* : https://github.com/47deg/scala-exercises
+*V1* : http://scala-exercises.47deg.com
