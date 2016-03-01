@@ -14,7 +14,7 @@ A browser tool to learn __Scala__ and its coolest __libs__
 
 - @rafaparadela JS POC for the @47deg labs
 - V1 Went Live on March 2nd, 2015
-- Focused on porting the Scala Koans koans to the web
+- Focused on porting Scala Koans to the web
 - Social component
 
 ---
@@ -22,7 +22,7 @@ A browser tool to learn __Scala__ and its coolest __libs__
 *V1 Limitations*
 
 - Serverless
-- Evaluation constrained to exact matches
+- "Evaluation" constrained to exact string matches
 - Can't track user progress across devices
 - Can't parse or evaluate more complex exercises
 
