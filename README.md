@@ -1,78 +1,66 @@
-![](home.png)
+build-lists: true
 
-# Scala Exercises v2
+![fit](assets/logo_light_v1.png)
 
 ---
 
-# What is Scala Exercises?
+# What is it?
 
 - An Open Source (ASL2) Browser based App conceived to help you learn an understand Scala based libraries and frameworks
 
 ---
 
-# V1 : History & Motivation
+# History & Motivation
 
-* @rafaparadela JS POC for the @47deg labs
-* Went Live on March 2nd, 2015
-* Focused on porting @dickwall and other's koans to the web
-* Scala koans was originally inspired by the Ruby Koans
-
----
-
-# V1 : History & Motivation
-
-* Social and Community component
-* Rafa to add more of his speech
----
-
-# V1 : Limitations
-
-* Serverless
-* Evaluation constrained to exact matches
-* Can't track user progress across devices
-* Can't parse or evaluate more complex exercises
+- @rafaparadela JS POC for the @47deg labs
+- v1 Went Live on March 2nd, 2015
+- Focused on porting the Scala Koans koans to the web
+- Social component
 
 ---
 
-# V1 : Stats
+# V1 Limitations
 
-* ~63K sessions
-* 40% Returning
-* ~180 PRs
-* ~50 Contributors
-* ~ 1 section completed per visit
-
----
-
-# V2 : Warning!
-
-![inline](assets/heavy_dev.png)
-
-## V2 is under Heavy Development!
+- Serverless
+- Evaluation constrained to exact matches
+- Can't track user progress across devices
+- Can't parse or evaluate more complex exercises
 
 ---
 
-# V2 : What's new?
+# V1 Stats
+
+- 63K sessions
+- 40% Returning
+- 180 PRs
+- 50 Contributors
+- 1 section completed per visit
+
+---
+
+# What's new?
+
+---
+
+# Libs at a glance
 
 ![inline](assets/home_blur.png)
 
-## Libs at a glance
-
 ---
 
-# V2 : What's new?
-
-## Overall User Progress
+# Overall User Progress
 
 ![inline](assets/overall_progress.png)
 
 ---
 
-# V2 : What's new?
+# Library progress
 
-## Library progress
+![inline](assets/section_progress.png)
 
-![right](assets/section_progress.png)
+---
+
+# Write Exercises Coding!
 
 ---
 
@@ -92,66 +80,79 @@
 
 ---
 
-# V2 : What's new?
+# Exercises content are artifacts 
 
-Exercises content are artifacts 
+[Image here]
 
 ---
 
-# V2 : What's new?
-
-Real evaluation of exercises
+# Real evaluation of exercises
 
 ![inline](assets/cats.mov)
 
 ---
 
-# V2 : What's new?
+# Contributors are properly credited
 
 ![inline](assets/contributors.mov)
 
-Contributors are properly credited
-
 ---
-
-# V2 : Internals
 
 Compiler / Evaluator / Architecture
 
 ---
 
-# V2 : Internals
-
-SBT Plugin
+![center fit original](assets/graph_01.png)
 
 ---
 
-# V2 : Internals
+# Purely Functional Architecture
 
-![](assets/algebra_scala.png)
-
----
-
-# V2 : Internals
-
-- `cats.free.Free` based architecture
-- `doobie` Persistence
-- Testing with ScalaCheck and ScalaTest
+[Image here]
 
 --- 
 
-# V2 : In flight
+# Warning! V2 is under Heavy Development!
+
+![inline](assets/heavy_dev.png)
+
+---
+
+# Actively working on...
 
 - Improved evaluation
 - Support for block style exercises (Ex : Implement a type class)
 - Docs, contribution guide...
+- Splitting into multiple repositories
 
 --- 
 
-# V3 : What's next after V2?
+# What would be coming next?
 
 - Allow Github organizations ?
 - Support other Exercises Format 
+- It really is entirely up to you!
 
---- 
+---
 
+# What would be coming next?
+
+- Top level domain / org
+- Allow Github organizations ?
+- Support other Exercises Format 
+- It really is entirely up to you!
+
+---
+
+![fit](assets/wewantyou.jpg)
+
+---
+
+# Thanks!
+
+@raulraja 
+@47deg
+Code : https://github.com/47deg/scala-exercises
+V1 : http://scala-exercises.47deg.com
+
+---
