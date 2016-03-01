@@ -60,31 +60,31 @@ A browser tool to learn __Scala__ and its coolest __libs__
 
 ---
 
-Write Exercises *Coding!*
+Write Exercises *with Code!*
 
 ![inline](assets/section_convention_01.png)
 
 ---
 
-Write Exercises *Coding!*
+Write Exercises *with Code!*
 
 ![inline fit](assets/section_convention_02.png)
 
 ---
 
-Write Exercises *Coding!*
+Write Exercises *with Code!*
 
 ![inline fit](assets/section_convention_03.png)
 
 ---
 
-Write Exercises *Coding!*
+Write Exercises *with Code!*
 
 ![inline fit](assets/section_convention_04.png)
 
 ---
 
-Write Exercises *Coding!*
+Write Exercises *with Code!*
 
 *Real evaluation of exercises*
 
