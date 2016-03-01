@@ -1,4 +1,6 @@
 build-lists: true
+footer: Scala Exercises *V2*
+slidenumbers: true
 
 ![fit](assets/logo_light_v1.png)
 
@@ -97,8 +99,6 @@ Write Exercises *with Code!*
 ![inline](assets/contributors.mov)
 
 ---
-
-*We want you to become one of us!*
 
 ![fit](assets/wewantyou.jpg)
 
