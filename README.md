@@ -179,8 +179,10 @@ Write Exercises *with Code!*
 
 *Thanks!*
 
-@raulraja 
-@47deg
+[@raulraja](https://twitter.com/raulraja)
 
-*Code* : https://github.com/47deg/scala-exercises
-*V1* : http://scala-exercises.47deg.com
+[@47deg](https://twitter.com/47deg)
+
+- Github : [https://github.com/47deg/scala-exercises](https://github.com/47deg/scala-exercises-v2)
+- Deck: [https://github.com/47deg/scala-exercises-v2-deck](https://github.com/47deg/scala-exercises-v2-deck)
+- V1: [http://scala-exercises.47deg.com](http://scala-exercises.47deg.com)
