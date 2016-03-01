@@ -46,7 +46,7 @@
 
 # V2 : Warning!
 
-![](assets/heavy_dev.png)
+![inline](assets/heavy_dev.png)
 
 ## V2 is under Heavy Development!
 
@@ -54,9 +54,9 @@
 
 # V2 : What's new?
 
-## Libs at a glance
+![inline](assets/home_blur.png)
 
-![inline](assets/home.png)
+## Libs at a glance
 
 ---
 
@@ -76,21 +76,19 @@
 
 ---
 
-# V2 : What's new?
-
-A new an improved way to create exercises
+![inline](assets/section_convention_01.png)
 
 ---
 
-# V2 : What's new?
-
-A new an improved way to create exercises
+![inline fit](assets/section_convention_02.png)
 
 ---
 
-# V2 : What's new?
+![inline fit](assets/section_convention_03.png)
 
-A new an improved way to create exercises
+---
+
+![inline fit](assets/section_convention_04.png)
 
 ---
 
@@ -104,23 +102,33 @@ Exercises content are artifacts
 
 Real evaluation of exercises
 
+![inline](assets/cats.mov)
+
 ---
 
 # V2 : What's new?
+
+![inline](assets/contributors.mov)
 
 Contributors are properly credited
 
 ---
 
-# V2 : What's new?
+# V2 : Internals
 
-An emphasis on content for Typelevel-like libs
+Compiler / Evaluator / Architecture
 
 ---
 
 # V2 : Internals
 
-Compiler / Parser / Evaluator
+SBT Plugin
+
+---
+
+# V2 : Internals
+
+![](assets/algebra_scala.png)
 
 ---
 
@@ -143,7 +151,7 @@ Compiler / Parser / Evaluator
 # V3 : What's next after V2?
 
 - Allow Github organizations ?
-- Support other Exercises Format (Tut?)
+- Support other Exercises Format 
 
 --- 
 
