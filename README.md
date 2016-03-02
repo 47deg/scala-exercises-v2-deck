@@ -1,5 +1,5 @@
 build-lists: true
-footer: Scala Exercises *V2*
+footer: Scala Exercises @raulraja @47deg *V2*
 slidenumbers: true
 
 ![fit](assets/logo_light_v1.png)
@@ -152,6 +152,18 @@ Write Exercises *with Code!*
 ![inline](assets/coproduct05.png)
 
 ---
+
+Free Monads!
+
+![inline](assets/libremonads.jpg)
+
+---  
+
+~~Free~~ Monadas Libres!
+
+![inline](assets/libremonads.jpg)
+
+---    
 
 *Warning!* V2 is under Heavy Development!
 
