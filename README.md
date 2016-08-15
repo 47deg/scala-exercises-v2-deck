@@ -2,7 +2,9 @@ build-lists: true
 footer: Scala Exercises @raulraja @47deg *V2*
 slidenumbers: true
 
-![fit](assets/logo_light_v1.png)
+![inline](assets/logo_light_v1.png)
+
+scala-exercises.org
 
 ---
 
@@ -37,6 +39,16 @@ A browser tool to learn __Scala__ and its coolest __libs__
 - *180* PRs
 - *50* Contributors
 - *1* section completed per visit
+
+---
+
+*V2 Stats*
+
+- Launched July 1st
+- +3K Users
+- +200 PRs closed
+- +110K Evaluations so far
+- Typelevel Project
 
 ---
 
@@ -100,10 +112,6 @@ Write Exercises *with Code!*
 
 ---
 
-![fit](assets/wewantyou.jpg)
-
----
-
 *Exercises Compiler Architecture*
 
 ![inline](assets/graph_01.png)
@@ -113,7 +121,8 @@ Write Exercises *with Code!*
 *Technologies*
 
 - **Client** [ScalaJS, Cats]
-- **Server** [Play, Cats, Doobie]
+- **Server** [Play, Cats, Doobie, Monix]
+- **Evaluator** [Http4s, Cats, Circe, Coursier]
 
 ---
 
@@ -153,39 +162,107 @@ Write Exercises *with Code!*
 
 ---
 
-Free Monads!
+*Remote Evaluation*
 
-![inline](assets/libremonads.jpg)
+Request
 
----  
-
-~~Free~~ Monadas Libres!
-
-![inline](assets/libremonads.jpg)
-
----    
-
-*Warning!* V2 is under Heavy Development!
-
-![inline](assets/heavy_dev.png)
+```json
+{  
+   "resolvers":[  
+      "https://oss.sonatype.org/content/repositories/releases"
+   ],
+   "dependencies":[  
+      {  
+         "groupId":"org.typelevel",
+         "artifactId":"cats-core_2.11",
+         "version":"0.4.1"
+      }
+   ],
+   "code":"{import cats._; Monad[Id].pure(42)}"
+}
+```
 
 ---
 
+*Remote Evaluation*
+
+Response
+
+```json
+{
+  "msg": "Ok",
+  "value": "42",
+  "valueType": "java.lang.Integer",
+  "compilationInfos": {}
+}    
+```
+
+---
+
+*Remote Evaluation*
+
+Response
+
+```json
+{
+  "msg": "Compilation Error",
+  "value": null,
+  "valueType": null,
+  "compilationInfos": {
+    "ERROR": [
+      {
+        "message": "value x is not a member of cats.Monad[cats.Id]",
+        "pos": {
+          "start": 165,
+          "point": 165,
+          "end": 165
+        }
+      }
+    ]
+  }
+}
+```
+
+---
+
+*New libraries being added...*
+
+- ![inline](assets/doobie.png) doobie > _a pure functional JDBC layer for Scala_
+
+- ![inline](assets/scalacheck.png) scalacheck > _Property-based testing for Scala_
+
+- ![inline](assets/fpis.png) fpis > _Functional Programming in Scala (Red Book)_
+
+- ![inline](assets/circe.png) circe > _JSON library for Scala_
+
+--- 
+
+*Many ways to contribute*
+
+- Write exercises for your library (Template available)
+- Write exercises for libs you are using or learning about
+- Improve Documentation
+- Improve Evaluator Security
+- Fix bugs
+
+--- 
+
 *Actively working on...*
 
-- Improved evaluation / Fork evaluation (Finch)
+- Improved evaluation exercises
 - Support for block style exercises (Ex : Implement a type class)
 - Docs, contribution guide...
-- Splitting into multiple repositories
+- Line errors
 
 --- 
 
 *What would be coming next?*
 
-- Allow Github organizations ?
-- Support other Exercises Format 
-- Top level domain / org
-- It really is entirely up to you!
+- Allow Github organizations 
+- Display Platform, Section and Exercise Statistics for repo owners
+- Export / Import / Run Github Gists
+- Support other Exercises Format (tut)
+- Any ideas?
 
 ---
 
@@ -195,6 +272,4 @@ Free Monads!
 
 [@47deg](https://twitter.com/47deg)
 
-- Github : [https://github.com/47deg/scala-exercises](https://github.com/47deg/scala-exercises-v2)
-- Deck: [https://github.com/47deg/scala-exercises-v2-deck](https://github.com/47deg/scala-exercises-v2-deck)
-- V1: [http://scala-exercises.47deg.com](http://scala-exercises.47deg.com)
+Github : https://github.com/scala-exercises
