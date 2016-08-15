@@ -225,7 +225,7 @@ Response
 
 ---
 
-*New libraries being added...*
+**New libs coming soon...**
 
 - ![inline](assets/doobie.png) doobie > _a pure functional JDBC layer for Scala_
 
@@ -234,6 +234,8 @@ Response
 - ![inline](assets/fpis.png) fpis > _Functional Programming in Scala (Red Book)_
 
 - ![inline](assets/circe.png) circe > _JSON library for Scala_
+
+- ![inline](assets/fetch.png) fetch > _Simple & Efficient data access for Scala_
 
 --- 
 
